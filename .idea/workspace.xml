@@ -5,18 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1bf3a2a-acb8-413f-8393-2216767b248e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageKatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageMenuDeliveryAndPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PageSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MainClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MainClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,22 +42,68 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Pr/JUnit/hamcrest-2.2.jar"
+    "last_opened_file_path": "D:/Pr/apache-poi/poi-bin-5.2.3/lib/SparseBitSet-1.2.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.PParser">
+    <configuration name="PParser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PParser" />
+      <module name="gt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClassTest.widgetIsDisplayedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gt" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainClassTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="widgetIsDisplayedTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClassTest.widgetIsDisplayedTest111" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="METHOD_NAME" value="widgetIsDisplayedTest111" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClassTest.widgetIsDisplayedWithDelay5000Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="METHOD_NAME" value="widgetIsDisplayedWithDelay5000Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClassTest.widgetIsDisplayedWithWait" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gt" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="METHOD_NAME" value="widgetIsDisplayedWithWait" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainClassTest" />
+        <item itemvalue="Application.PParser" />
+        <item itemvalue="JUnit.MainClassTest.widgetIsDisplayedWithDelay5000Test" />
+        <item itemvalue="JUnit.MainClassTest.widgetIsDisplayedTest111" />
+        <item itemvalue="JUnit.MainClassTest.widgetIsDisplayedWithWait" />
+        <item itemvalue="JUnit.MainClassTest.widgetIsDisplayedTest" />
       </list>
     </recent_temporary>
   </component>

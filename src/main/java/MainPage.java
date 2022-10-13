@@ -3,8 +3,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.remote.RemoteWebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import javax.swing.*;
+import java.time.Duration;
 import java.util.List;
 
 public class MainPage {
@@ -110,6 +113,17 @@ public class MainPage {
 
     public boolean isWidgetChatDisplayed() {
         if (this.driver.findElement(widgetChat).isDisplayed()) {
+            System.out.println("Element is Visible (is Displayed)");
+            return true;
+        } else {
+            System.out.println("Element is InVisible");
+            return false;
+        }
+    }
+    public boolean isWidgetChatDisplayedWait(Integer sec) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(sec));
+        WebElement elWait = wait.until(ExpectedConditions.visibilityOfElementLocated(widgetChat));
+        if (elWait.isDisplayed()) {
             System.out.println("Element is Visible (is Displayed)");
             return true;
         } else {

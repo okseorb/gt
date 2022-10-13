@@ -18,7 +18,7 @@ public class MainClassTest {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //задержка для ожидания элемента
         driver.manage().window().maximize();
-        driver.get("https://site.com");
+        driver.get("https://");
         mainPage = new MainPage(driver);
         try {
             Thread.sleep(2000);
@@ -38,8 +38,12 @@ public class MainClassTest {
     public void widgetIsDisplayedTest(){
        Assert.assertTrue( mainPage.isWidgetChatDisplayed());
     }
-
     @Test
+    public void widgetIsDisplayedWait(){
+       Assert.assertTrue(mainPage.isWidgetChatDisplayedWait(7));
+    }
+
+/*    @Test
     public void widgetIsDisplayedWithDelay5000Test(){
         try {
             Thread.sleep(5000);
@@ -47,7 +51,7 @@ public class MainClassTest {
             throw new RuntimeException(e);
         }
         Assert.assertTrue(mainPage.isWidgetChatDisplayed());
-    }
+    }*/
     @Test
     public void allHeaderPhonesOpenTest(){
         try {
